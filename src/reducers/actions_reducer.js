@@ -1,5 +1,5 @@
-import { FETCH_COUNTRY} from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\actions';
-import { FETCH_WEATHER} from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\actions';
+
+import { FETCH_WEATHER} from '../actions';
 
 
 export default function(state = {}, action){

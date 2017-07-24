@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import _ from 'lodash';
-import GoogleMap from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\components\\google_map';
+import GoogleMap from './google_map';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 

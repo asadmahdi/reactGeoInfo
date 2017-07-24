@@ -7,11 +7,11 @@ import ReduxPromise from 'redux-promise';
 
 import reducers from './reducers';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import HomePage from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\components\\home_page';
-import Countries from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\components\\countries';
-import Country from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\components\\country';
-import Cities from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\containers\\cities';
-import City from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\components\\city';
+import HomePage from './components/home_page';
+import Countries from './components/countries';
+import Country from './components/country';
+import Cities from './containers/cities';
+import City from './components/city';
 
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);

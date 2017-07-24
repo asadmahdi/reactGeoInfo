@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import _ from 'lodash';
-import GoogleMap from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\components\\google_map';
-import { fetchCountry } from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\actions';
+import GoogleMap from '../components/google_map';
+import { fetchCountry } from '../actions';
 import { connect } from 'react-redux';
-import { fetchWeather } from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\actions';
+import { fetchWeather } from '../actions';
 import { bindActionCreators } from 'redux';
 
 class City extends Component{

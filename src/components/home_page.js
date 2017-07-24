@@ -11,7 +11,7 @@ class HomePage extends Component{
           <Link to="/">Home</Link>
           <Link to="/countries">Countries</Link>
           <Link to="/cities">Cities</Link>
-          <div className="SiteName">Site Name</div>
+          <div className="SiteName">Name</div>
         </div>
 
 
