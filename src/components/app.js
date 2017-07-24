@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import HomePage from 'C:\\Users\\Syed\\Documents\\reactProj\\ReduxSimpleStarter\\src\\components\\home_page';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>React simple starter</div>
-    );
-  }
-}
+
+
+ReactDOM.render(
+  <HomePage/>, document.querySelector('.container'));

@@ -1,0 +1,170 @@
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 1px;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.nav {
+
+  display: flex;
+  justify-content: space-around;
+  font-weight: 800;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav li {
+  color: blue;
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all 1s;
+}
+.nav a:hover {
+  color: white
+}
+
+.pic {
+  width: 100%;
+
+}
+
+th{
+  background-color: black;
+  color: white;
+}
+
+td, th {
+
+  vertical-align: middle !important;
+  text-align: center !important;
+
+}
+
+.input-group{
+  margin: 20px 0px;
+}
+
+svg{
+  height: 150px;
+}
+
+
+td:first-of-type, td:first-of-type > div {
+
+height:200px;
+width: 250px;
+
+
+}
+
+.flag{
+  width: 200px;
+}
+
+.countryName{
+
+  padding-top: 20px;
+  position:relative;
+  left: 45%;
+  font-weight: bold;
+
+}
+
+.bar{
+  background-color: black;
+  height: 50px;
+  width: inherit;
+}
+
+.backButton{
+  position:relative;
+  left: 45%;
+}
+
+.factsList{
+  width: 250px;
+  position: relative;
+  left: 35%;
+
+}
+
+.factsList li{
+  padding: 5px;
+  height: 30px;
+  background-color: #dedede;
+  list-style-type: none;
+  border: solid;
+  border-width: thin;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.SiteName {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+.parent
+{ height: 700px;
+  background-repeat: no-repeat;
+}
+
+.USA {
+  background: url('http://hiltonhotels.hiltonmanage.com/assets/img/destinations/Spanish/USA/usa-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Canada {
+background: url('https://cbi-blog.s3.amazonaws.com/blog/wp-content/uploads/2015/03/Canada-Flag-City-View-cropped.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.Mexico {
+  background: url('http://cdn.traveler.es/uploads/images/thumbs/201512/los_mejores_destinos_por_horas_de_avion_de_semana_santa_325547034_1200x797.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Welcome{
+  background: url('http://cdn.playbuzz.com/cdn/135533e4-8b11-4af0-8638-6525eff069e0/9d2f35d6-a75a-44e7-8259-6ff1abb00ce4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
