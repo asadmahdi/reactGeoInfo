@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import ReduxPromise from 'redux-promise';
-
+//git remote set-url origin git://new.url.here
 
 import reducers from './reducers';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
